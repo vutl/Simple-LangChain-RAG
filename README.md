@@ -35,7 +35,7 @@ rag_langchain/
 
 The following diagram illustrates the RAG pipeline implemented in this project:
 
-![RAG Pipeline](RetrievalQA chain.webp)
+![RAG Pipeline](RetrievalQA_chain.png)
 
 1. **Document Loading**: Loads PDFs or other documents from URLs or a database.
 2. **Splitting**: Documents are split into smaller chunks for efficient retrieval.
