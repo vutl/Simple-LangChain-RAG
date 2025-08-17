@@ -35,7 +35,7 @@ rag_langchain/
 
 The following diagram illustrates the RAG pipeline implemented in this project:
 
-![RAG Pipeline](doc_loading_pipeline.png)
+![RAG Pipeline](RetrievalQA chain.webp)
 
 1. **Document Loading**: Loads PDFs or other documents from URLs or a database.
 2. **Splitting**: Documents are split into smaller chunks for efficient retrieval.
@@ -47,7 +47,7 @@ The following diagram illustrates the RAG pipeline implemented in this project:
 
 The following diagram shows how queries and embeddings interact with the vectorstore:
 
-![Chroma Embedding Flow](chroma_embedding_flow.png)
+![Chroma Embedding Flow](chroma.png)
 
 - Documents are embedded and stored in Chroma.
 - Queries are embedded and used to retrieve relevant document chunks.
